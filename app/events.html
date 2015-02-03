@@ -28,6 +28,28 @@
 
     <!-- Page styles -->
     <link rel="stylesheet" href="styles/main.css">
+    <style>
+
+
+    /*Meta images > Page About*/
+    .studyjams-small {
+          height: 400px;
+          background-image: url(/images/studyjams-gdgjp--small.png);
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position-x: center;
+        }
+
+        @media (min-width: 500px) {
+          body {
+            background-image: url(/images/bg-studyjams.png);
+          }
+          .studyjams-small {
+            background-image: none;
+          }
+        }
+        /*End Page About*/
+    </style>
   </head>
   <body>
     <header class="app-bar promote-layer">
@@ -46,29 +68,32 @@
       </div>
     </header>
 
-<nav class="navdrawer-container">
-            <h4>Menu</h4>
-              <ul>
-                <li><a href="#hello">Home</a></li>
-                <li><a href="#get-started">About</a></li>
-                <li><a href="styleguide.html">Events</a></li>
-                <li><a href="#hello">Partners</a></li>
-                <li><a href="#hello">Staff</a></li>
-                <li><a href="#hello">Blog</a></li>
-              </ul>
-          </nav>
+    <nav class="navdrawer-container">
+      <h4>Menu</h4>
+        <ul>
+          <li><a href="#hello">Home</a></li>
+          <li><a href="#get-started">About</a></li>
+          <li><a href="styleguide.html">Events</a></li>
+          <li><a href="#hello">Partners</a></li>
+          <li><a href="#hello">Staff</a></li>
+          <li><a href="#hello">Blog</a></li>
+        </ul>
+    </nav>
     <main>
-      <h2 class="inicioNome">
-        <b>Google <br />
-        Developer<br />
-        Group<br /></b>
-        João Pessoa</h2>
-        <h3 id="get-started">06 de Outubro, 2015,<br>
-      1:57, 27ºC</h3>
-    
-     <h3><img class="farol" src="images/Farol.png"></h3>
+      <div class="container">
+      <section class="styleguide__typography">
+         <div class="studyjams-small"></div>
+        <div class="code-sample">
+          <p><br></p>
+        </div>  
+        <div class="code-sample">
+          <h3 align="center"> Sábados, 07 de Fervereiro à 28 de Março <br/ >Auditório da ANID</h3>
+          <div class="g-medium--1 g-medium--push-2 g-medium--last g-wide--1 g-wide--push-3 g-wide--last"><a class="button-studyjams" href="#">JOIN A JAM! <b style="color:#98c91b">FREE!</b></a>  </div>
+        </div>  
+      </section>
+    </div>
     </main>
-
+    
     <!-- build:js scripts/main.min.js -->
     <script src="scripts/main.js"></script>
     <!-- endbuild -->

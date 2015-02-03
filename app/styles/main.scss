@@ -25,7 +25,7 @@ body {
   position: relative;
   font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
   font-weight: 300;
-  background-color: #fff;
+  background-color: #c6dee9;
   box-sizing: border-box;
   min-height: 100%;
 }
@@ -34,21 +34,60 @@ body.open {
   overflow: hidden;
 }
 
+.button-studyjams {
+  display:block;
+  margin: auto;
+  text-align: center;
+  border-radius:4px;
+  text-decoration: none;
+  font-family:'Lucida Grande',helvetica;
+  background: #7761d3;
+  background-color: #7761d3;
+  -webkit-box-shadow: 0 4px 0 0 #3b3592;
+  -moz-box-shadow: 0px 4px 0 0 #3b3592;
+  box-shadow: 5px 5px 4px 2px #3b3592;
+  font-size: 20px !important;
+  padding: 8px 2px;
+  width: 250px;
+  color: #FFF;
+}
+.button-studyjams:hover {
+  color: #51A65F;
+}
+
+.sumario-header {
+background-color: #aeabaa;
+color: #ffffff;
+position: fixed;
+  bottom: 0;
+opacity: 0.9;
+}
+
+.inicioNome{
+  color: #7b7978;
+}
+
+.farol{
+  position: fixed;
+  bottom: 0;
+}
+
 .app-bar {
+  box-shadow: #9eb1ba 2px 2px 1px;
   display: block;
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #4285f4;
+  background-color: #f2f2f2;
   overflow: hidden;
   z-index: 1;
 }
 
 .app-bar-container {
-  display: -webkit-flex;
+  /*display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex;
+  display: flex;*/
   width: 100%;
   height: 60px;
   position: relative;
@@ -153,7 +192,7 @@ ol {
   bottom: 0;
   width: 250px;
   height: 100%;
-  background-color: #3367D6;
+  /*background-color: #3367D6;*/
   color: #fefefe;
   -webkit-transform: translate(-250px, 0);
           transform: translate(-250px, 0);
@@ -193,7 +232,7 @@ main {
 .navdrawer-container ul li a {
   display: block;
   text-decoration: none;
-  color: white;
+  color: #737277;
   -webkit-transition: background-color 0.2s ease-out;
           transition: background-color 0.2s ease-out;
   white-space: nowrap;
@@ -243,19 +282,19 @@ main {
   }
 
   .app-bar-container {
-    display: block;
-    height: 130px;
+    /*display: none;*/
+    height: 60px;
     max-width: 864px;
     padding: 0 16px;
     box-sizing: border-box;
-    background-color: #4285f4;
+    background-color: #f2f2f2;
   }
 
   .app-bar .logo {
     float: left;
     margin: 0;
     padding: 0;
-    line-height: 130px;
+    line-height: 60px;
     font-size: 46px;
   }
 
@@ -294,7 +333,7 @@ main {
   .navdrawer-container ul {
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex;
+    display: none;
     max-width: 864px;
     margin: 0 auto;
     -webkit-flex-direction: row;

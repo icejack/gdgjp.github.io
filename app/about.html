@@ -28,6 +28,29 @@
 
     <!-- Page styles -->
     <link rel="stylesheet" href="styles/main.css">
+    <style>
+    /*Meta images > Page About*/
+    .example {
+          height: 195px;
+          background-image: url(/images/simbol.png);
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position-x: center;
+        }
+
+        @media (min-width: 500px) {
+          body {
+            background-image: url(/images/bg-about.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position-x: center;
+          }
+          .example {
+            background-image: url(/images/simbol.png);
+          }
+        }
+        /*End Page About*/
+    </style>
   </head>
   <body>
     <header class="app-bar promote-layer">
@@ -57,18 +80,24 @@
                 <li><a href="#hello">Blog</a></li>
               </ul>
           </nav>
-    <main>
-      <h2 class="inicioNome">
-        <b>Google <br />
-        Developer<br />
-        Group<br /></b>
-        João Pessoa</h2>
-        <h3 id="get-started">06 de Outubro, 2015,<br>
-      1:57, 27ºC</h3>
+  
+     <main>
+      
+        <br/ > <br/ > <br/ > <br/ ><div class="example"></div>
+     </main>
+             
+                  
+                                  
+       
+   <footer>
+     <div class="sumario-header">
+      <div class="container">
+        <p>O GDG João Pessoa que dar sua contribuição junto à difusão do conhecimento, onde cada membro do grupo mostrará suas idéias, dúvidas e seu conhecimento pessoal, a fim de colaborar com o grupo em si, na formalização e idealização de tecnologias já existentes e na que estiverem por vi. <a href="#"> Saiba mais.</a> </p> <br/ >
+    </div>
+   </footer>
     
-     <h3><img class="farol" src="images/Farol.png"></h3>
-    </main>
 
+    
     <!-- build:js scripts/main.min.js -->
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
