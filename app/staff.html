@@ -40,7 +40,7 @@
 
         @media (min-width: 500px) {
           body {
-            background-image: url(/images/bg-about.jpg);
+            background-image: url(/images/bg-estacao.jpg);
             background-repeat: no-repeat;
             background-size: cover;
             background-position-x: center;
@@ -49,7 +49,15 @@
             background-image: url(/images/simbol.png);
           }
         }
-        /*End Page About*/
+        main {
+          max-width: 100%;
+        }
+        .sumario-header {
+          background-color: #6c6e6e;
+          width: 100%;
+          margin: right;
+          }
+
     </style>
   </head>
   <body>
@@ -69,35 +77,49 @@
       </div>
     </header>
 
-<nav class="navdrawer-container">
-            <h4>Menu</h4>
-              <ul>
-                <li><a href="#hello">Home</a></li>
-                <li><a href="#get-started">About</a></li>
-                <li><a href="styleguide.html">Events</a></li>
-                <li><a href="#hello">Partners</a></li>
-                <li><a href="#hello">Staff</a></li>
-                <li><a href="#hello">Blog</a></li>
-              </ul>
-          </nav>
+    <nav class="navdrawer-container">
+      <h4>Menu</h4>
+        <ul>
+          <li><a href="#hello">Home</a></li>
+          <li><a href="#get-started">About</a></li>
+          <li><a href="styleguide.html">Events</a></li>
+          <li><a href="#hello">Partners</a></li>
+          <li><a href="#hello">Staff</a></li>
+          <li><a href="#hello">Blog</a></li>
+        </ul>
+    </nav>
   
      <main>
-      
-        <br/ > <br/ > <br/ > <br/ ><div class="example"></div>
+      <br><br><br>
+  <section class="styleguide__centered-list">
+    <div class="container">
+        <ul class="list-guides-intro list-centered list--reset clear">
+            <li class="g-medium--half g-wide--1 theme--multi-device-layouts  "> 
+              <!-- Place this tag where you want the widget to render. -->
+              <div class="g-person" data-width="210" data-href="//plus.google.com/+jacquesbelmont" data-rel="author"></div>
+            </li>
+            <li class="g-medium--half g-wide--1 theme--introduction-to-media g-medium--last ">
+              <!-- Place this tag where you want the widget to render. -->
+              <div class="g-person" data-width="210" data-href="//plus.google.com/+RicardoCavalcanteJoaoPessoa" data-rel="author"></div>
+            </li>
+            <li class="g-medium--half g-wide--1 theme--user-input  ">
+                <div class="g-person" data-width="210" data-href="//plus.google.com/+SILASMONTEIRO" data-rel="author"></div>
+            </li>
+            <li class="g-medium--half g-wide--1 theme--performance g-medium--last  g-wide--last ">
+                <div class="g-person" data-width="210" data-href="//plus.google.com/+RafaelCostarafaelcsta" data-rel="author"></div>
+            </li>
+        </ul>
+    </div>
+</section>
      </main>
-             
-                  
-                                  
-       
+                 
    <footer>
      <div class="sumario-header">
       <div class="container">
-        <p>O GDG João Pessoa que dar sua contribuição junto à difusão do conhecimento, onde cada membro do grupo mostrará suas idéias, dúvidas e seu conhecimento pessoal, a fim de colaborar com o grupo em si, na formalização e idealização de tecnologias já existentes e na que estiverem por vir. <a href="#"> Saiba mais.</a> </p> <br/ >
-    </div>
+        <div class="g-medium--1 g-medium--push-2 g-medium--last g-wide--1 g-wide--push-3 g-wide--last"><img src="/images/googledevelopers.png" alt="google developers">
+    </div></div></div>        
    </footer>
-    
-
-    
+   
     <!-- build:js scripts/main.min.js -->
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
@@ -112,6 +134,15 @@
   ga('create', 'UA-40141564-1', 'auto');
   ga('send', 'pageview');
 
+</script>
+
+<!-- Place this tag after the last widget tag. -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/platform.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
 </script>
     <!-- Built with love using Web Starter Kit -->
   </body>
